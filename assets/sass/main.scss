@@ -53,11 +53,16 @@
 
 	html {
 		background-color:		_palette(accent2, bg);
-		background-attachment:	fixed,						fixed;
-		background-image:		url('images/overlay.png'),	url('../../images/bg.jpg');
-		background-position:	top left,					center center;
-		background-repeat:		repeat,						none;
-		background-size:		auto,						cover;
+		// background-attachment:	fixed,						fixed;
+		// background-image:		url('images/overlay.png'),	url('../../images/bg.jpg');
+		// background-position:	top left,					center center;
+		// background-repeat:		repeat,						none;
+		// background-size:		auto,						cover;
+		background-attachment:	fixed;
+		background-image:		url('images/overlay.png');
+		background-position:	top left;
+		background-repeat:		repeat;
+		background-size:		auto;
 	}
 
 	html {
@@ -1057,6 +1062,19 @@
 				background-color: _palette(border2-bg);
 			}
 		}
+	}
+
+/* ---- particles.js container ---- */
+
+	#particles-js {
+		position: fixed;
+		width: 100%;
+	  height: 100%;
+	}
+
+	canvas {
+		display: block;
+		vertical-align: bottom;
 	}
 
 /* Header */
