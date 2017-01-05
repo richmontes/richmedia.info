@@ -1,0 +1,2 @@
+# richmedia.info
+Personal website
